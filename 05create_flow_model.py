@@ -3,6 +3,8 @@ from t2data import *
 from t2incons import *
 from t2listing import *
 
+print('Create flow model')
+
 #open geometry file  BEN check the name!
 geo=mulgrid('04_grid.dat')
 #open input data file

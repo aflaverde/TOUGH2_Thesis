@@ -16,7 +16,7 @@ cupiagua_x_min = 752465
 cupiagua_x_max = 779465
 cupiagua_y_min = 565560
 cupiagua_y_max = 595560
-cupiagua_z_min = -6500.0
+cupiagua_z_min = -6000.0
 cupiagua_z_max = 2800.0
 
 gm_x_extents = cupiagua_x_max - cupiagua_x_min
@@ -27,7 +27,7 @@ print('x:', gm_x_extents, 'y:', gm_y_extents, 'z:', gm_z_extents)
 
 x=[1000]*24
 y=[1000]*38
-z=[400]*3+[300]*10+[150]*5+[80]*12+[100]*5+[150]*10+[200]*5
+z=[400]*3+[300]*10+[150]*5+[80]*12+[100]*7+[150]*8+[200]*2+[400]
 origin=[750500.6014, 561000.5238, 2300.0]
 ################################################################################
 atmos_type=0
